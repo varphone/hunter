@@ -33,6 +33,17 @@ hunter_add_version(
     33c73b0cde6dba09c4ecdf0ea65c7be38418b161
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    live
+    VERSION
+    "2019.05.29"
+    URL
+    "https://github.com/varphone/live/archive/v2019.05.29.tar.gz"
+    SHA1
+    25baa4071473bc22a79eccc900db86472ab18b0f
+)
+
 hunter_cmake_args(live CMAKE_ARGS BUILD_EXAMPLES=OFF BUILD_TESTS=OFF)
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
