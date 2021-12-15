@@ -44,6 +44,17 @@ hunter_add_version(
     cc4bb35af1e680cab6d13de2581914d8c8b66af3
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    xpr
+    VERSION
+    "2.3.8"
+    URL
+    "https://github.com/varphone/xpr/archive/v2.3.8.tar.gz"
+    SHA1
+    7d075345c44245d31a39b65bc1326ba00d1f760a
+)
+
 hunter_cmake_args(xpr
     CMAKE_ARGS
         BUILD_EXAMPLES=OFF
