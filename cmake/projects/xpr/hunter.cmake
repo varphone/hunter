@@ -63,7 +63,7 @@ hunter_add_version(
     URL
     "https://github.com/varphone/xpr/archive/v2.3.9.2-hunter-0.23.59-p8.tar.gz"
     SHA1
-    29292bf08d304f5192448a45ccf7d33b6c89f423
+    818ee3232e2cf2bed66ec5ecafb3bdc888875cb7
 )
 
 hunter_cmake_args(xpr
